@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,100;1,200;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.basic-img{
+    background-image: url(https://d1v72txp4rf8db.cloudfront.net/media/wysiwyg/Tombow_August2020-Web.jpg);
+    height: 100vh;
+    /* min-width: 1024px; */
+    width: 100vw;
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    align-items: center;
+}
+.info-header h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    color: blueviolet;
+    display: inline-block;
+    padding: 20px 50px 20px 50px;
+    opacity: 1.7;
+    border-radius: 20px;
+    text-align: center;
+}
+.image-body{
+    padding-top: 205px;
+    text-align: center;
+}
+.info-p p{
+    font-family: 'Poppins', sans-serif;
+    color: rgba(255, 255, 255, 0.881);
+    font-size: 23px;
+    padding: 10px;
+    letter-spacing: 1px;
+    margin:15px 15px;
+}
+.info-link a{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    border-radius: 15px;
+    color: white;
+    background-color: rgba(255, 72, 0, 0.979);
+    padding: 10px;
+}
+.form-body{
+    background-color: rgb(44, 17, 69);
+    padding: 30px 0px;
+    height: 65vh;
+    width: 100%;
+}
+.form-body form{
+    font-family: 'Poppins', sans-serif;
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+    width: 300px;
+    background-color: rgb(58, 16, 95);
+    padding: 60px 0px 60px 0px ;
+    border-radius:10px ;
+    box-shadow:7px 5px 7px  ;
+   
+}
+.form-inner{
+    padding: 21px 0px 0px 0px;
+    border-radius: 8px;
+}
+ /*.form-inner label{
+    display: block;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    line-height: 30px;
+    color: aliceblue;
+}*/
+.form-inner input{
+    padding:8px 18px ;
+    margin:10px ;
+    width:60% ;
+    border: 1px solid white;
+    border-radius: 6px;
+    font-size: 16px;
+    color: blueviolet;
+    background-color: blueviolet;
+    background-color: white;
+}
+.form-body p{
+    font-size: 30px;
+    color: white;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    
+}
+/*.form-inner.submit{
+    font-size: 14px;
+    color: white;
+    background-color: blueviolet;
+
+}*/
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color:white
+    margin
+}
+.logo{
+    margin-right: 277px;
+    padding: 20px;
+    display: flex;
+}
+.info a {
+    font-size: 18px;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    margin: 20px;
+    padding-top: 16px;
+    display: inline-block;
+
+}
+.info a i{
+    color:rgba(255, 85, 0, 0.9);
+}
+.btn-registration {
+    
+    font-size: 16px;
+    color: #24282a;
+    border: 2px solid #dddbe0;
+    border-radius: 8px;
+    width: 120px;
+    margin-left: 8px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+    padding-left: 18px;
+    
+}
+ /*.nav-item{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 23px 6px 23px;
+    position: relative;
+    font-size: 12px;
+    color: white;
+    letter-spacing: 3px;
+     
+ } 
+ .bottom-left {
+    text-align: center;
+    align-items: center;
+    vertical-align: middle;
+    display: flex;
+}
+.container {
+    display: flex;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+
+}*/
+.header-menu {
+    padding-top: 31px;
+    display: flex;
+    justify-content: space-between;
+}
+.bottom-left li {
+    display: inline-block;
+    list-style: none;
+    padding: 0px 25px 8px 25px;
+    position: relative;
+   
+}
+.bottom-left {
+    text-align: left;
+    align-items: center;
+    display: flex;
+}
+
+.bottom-left li a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: black;
+    text-align: left;
+    text-decoration: none;
+   
+    
+}
+.bottom-left u {
+    padding-left: 130px;
+}
+.row {
+    background-color: rgb(252, 199, 216);
+    display: flex;
+    width:100%;
+    height: 100vh;
+   
+}
+.info-header h2{
+     font-size:4rem;
+     font-family:'Poppins', sans-serif;
+     text-align: left;
+     letter-spacing: 1px;
+     color: black;
+     font-weight: 20px;
+     margin-left: 150px;
+     margin-top: 200px;
+     
+}
+.info-header p{
+    font-family:'Poppins', sans-serif;
+    text-align: left;
+     letter-spacing: 1px;
+     color: rgb(80, 79, 79);
+     font-weight: 20px;
+     font-size: 2rem;
+     margin-bottom: 36px;
+     margin-left: 150px;
+     margin-top: 55px;
+}
+.container img{
+    margin-top: 80px;
+}
+/*.container{
+    width: 100%;
+    height: 100vh;
+}*/
